@@ -5018,10 +5018,10 @@ static void show_help(const char *path)
 	const char helpstr[] = {
 	"0\n"
 	"1NAVIGATION\n"
-	       "9Up k  Up%-16cPgUp ^U  Page up\n"
-	       "9Dn j  Down%-14cPgDn ^D  Page down\n"
+	       "9Up e  Up%-16cPgUp ^U  Page up\n"
+	       "9Dn n  Down%-14cPgDn ^D  Page down\n"
 	       "9Lt h  Parent%-12c~ ` @ -  ~, /, start, prev\n"
-	   "5Ret Rt l  Open%-20c'  First file/match\n"
+	   "5Ret Rt t  Open%-20c'  First file/match\n"
 	       "9g ^A  Top%-21c.  Toggle hidden\n"
 	       "9G ^E  End%-20c^J  Toggle auto-jump on open\n"
 	      "8B (,)  Book(mark)%-11cb ^/  Select bookmark\n"
