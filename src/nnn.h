@@ -216,7 +216,7 @@ static struct key bindings[] = {
 	{ 'z',            SEL_ARCHIVE },
 	/* Sort toggles */
 	{ 'o',            SEL_SORT },
-	{ CONTROL('T'),   SEL_SORT },
+	/* { CONTROL('T'),   SEL_SORT }, */
 	/* Redraw window */
 	{ CONTROL('L'),   SEL_REDRAW },
 	/* Select current file path */
@@ -238,7 +238,7 @@ static struct key bindings[] = {
 	{ CONTROL('V'),   SEL_MV },
 	/* Copy/move from selection buffer and rename */
 	{ 'w',            SEL_CPMVAS },
-	{ CONTROL('W'),   SEL_CPMVAS },
+	/* { CONTROL('W'),   SEL_CPMVAS }, */
 	/* Delete from selection buffer */
 	{ 'x',            SEL_TRASH },
 	{ CONTROL('X'),   SEL_TRASH },
